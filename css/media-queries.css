@@ -1,0 +1,186 @@
+@media only screen and (max-width: 1400px) {
+	.video-cover {
+    max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-page__container, .photo-slider, .join__container, .video-block-img__text {
+        padding: 0 30px;
+    }
+    .line-wrap, .vertical-text, .social, .surfboards__left-arrow, .surfboards__right-arrow {
+        display: none;
+    }
+    .photo-slider__tumbler {
+        position: absolute;
+        left: 30px;
+    }
+	.camp__column-1, .camp__column-2 {
+	    width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+    .link {
+        margin: 50px auto;
+    }
+    .photo-slider {
+        margin: 0;
+    }
+    .photo-slider__tumbler {
+        position: absolute;
+        bottom: 30px;
+        left: 60px;
+        color: red;
+    }
+    .photo-slider__counter {
+        color: #ebebeb;
+    }
+    .main-info {
+        padding: 0 30px;
+    } 
+    .main-info__description span {
+        background-color: #ebebeb;
+        opacity: .8;
+    }
+    .video-block__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .video-block-cover, .video-block-img {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .video-block-img__text {
+        margin: 59px auto;
+        width: 100%;
+    }
+    .surf-training__photo {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .surf-training__text {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .point-break__img {
+        margin: 0;
+    }
+    .point-break__photo {
+        width: 50%;
+    }
+    .point-break .link {
+        margin: 50px 0;
+    }
+    .camp .link {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+	.header__container {
+    	margin: 20px 0;
+        line-height: 50px;
+    }
+    .point-break {
+        margin-top: 50px;
+    }    
+    .point-break__photo {
+        width: 100%;
+        text-align: center;
+    }
+    .point-break__text {
+        max-width: 100%;
+        text-align: center;
+        margin: 30px 0;
+        padding: 0 20px
+    }
+    .point-break .link {
+        margin: 50px auto;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+	.header__container {
+	   margin: 20px 0;
+    }
+    .top-menu {
+        margin-left: 60px;
+    }
+    form {
+        display: block;	
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    .join__button {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .join__button img {
+        display: none;
+    }
+    .join__button:before {
+        content: "Send";
+        opacity: 0.9;
+        color: #fff;
+        font-family: "League Spartan";
+        font-size: 9px;
+        text-transform: uppercase;
+        letter-spacing: 5.4px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .quote, .surfboards, .surf-training, .join, .camp {
+        margin-top: 90px;
+    }
+    .main-page__container {
+        padding: 0;
+    }
+    .photo-slider__tumbler {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+    .surfboards-card {
+        margin: 0 auto;
+        min-width: 300px;
+    }
+    .surfboards-card .surfboards-card__description {
+        position: static;
+        margin: 0 auto;
+    }
+    .button-buy {
+        width: 100%;
+        height: 50px;
+        color: #fff;
+        background-color: #5da8ef;
+        margin-top: 20px;
+        line-height: 50px;
+        opacity: 1;
+    }
+    .header__container, .footer__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .top-menu {
+        margin: auto;
+    }
+    .top-menu li, .footer-menu li {
+        padding-left: 10px;
+    }
+    .camp .address {
+        padding: 54px 0;
+    }
+    .footer {
+        margin: 0;
+    }
+}

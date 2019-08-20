@@ -1,0 +1,36 @@
+.video-block {
+    margin-top: 62px;
+    }
+    .video-block__container {
+        max-width: 1224px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .video-block-img {
+        width: 50%;
+        float: left;
+        position: relative;
+        z-index: 3;
+    }
+    .video-block-img__text {
+        width: 336px;
+        margin-top: 59px;
+        margin-left: 110px;
+    }
+    .video-block-cover {
+        width: 706px;
+        float: left;
+        position: relative;
+        z-index: 3;
+        margin-top: 43px;
+        margin-left: -90px;
+    }
+    .video-block-cover__icon-play {
+        position: absolute;
+        top: 50%;
+        margin-top: -60px;
+        left: 50%;
+        margin-left: -60px;
+    }
+
+

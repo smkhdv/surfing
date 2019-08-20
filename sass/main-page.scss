@@ -1,0 +1,110 @@
+.main-page__container {
+    max-width: 1225px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header__container {
+    line-height: 127px;
+}
+
+.header__logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top-menu {
+    margin-left: 190px;
+    vertical-align: middle;
+    display: inline-block;
+    li {
+        float: left;
+        padding-left: 40px;
+    }
+    li:first-child {
+        padding-left: 0;
+    }
+}
+
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    text-transform: uppercase;
+    opacity: 0.2;
+    color: #0b0c11;
+    font-family: $font-family-3;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+}
+
+.main-page__v-t {
+    position: absolute;
+    top: 38px;
+    right: -43px;
+}
+
+.vertical-line {
+    border-left: 2px solid #5da8ef;
+    height: 100px;
+    margin: 60px auto;
+    width: 0;
+}
+
+.main-info {
+    position: absolute;
+    top: 326px;
+    z-index: 2;
+}
+
+.main-info__description {
+    max-width: 389px;
+    padding-top: 18px;
+}
+
+.subtitle-blue {
+    @include subtitle (#5da8ef);
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: 19px;
+    margin-left: 50px;
+    li {
+    padding-top: 34px;
+    }
+}
+
+.photo-slider {
+    max-width: 1016px;
+    height: 572px;
+    margin-left: 209px;
+    position: relative;
+    z-index: 1;
+    background: url(../images/slider/main-page-ocean.png) no-repeat;
+    background-size: cover; 
+    -webkit-box-shadow: -15px 15px 45px -30px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 15px 45px -30px rgba(0,0,0,0.75);
+    box-shadow: -15px 15px 45px -30px rgba(0,0,0,0.75);
+    background-position: center;
+}
+
+.photo-slider__tumbler {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: end;
+    z-index: 2;
+}
+
+.photo-slider__counter {
+    color: #262626;
+    font-family: $font-family-3;
+    font-size: 10px;
+    color: #5da8ef;
+    text-transform: uppercase;
+    padding: 0 10px;
+}

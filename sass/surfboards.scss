@@ -1,0 +1,97 @@
+.surfboards {
+    margin-top: 196px;
+    .surfboards__background {
+    width: 100%;
+    position: absolute;
+    margin-top: -418px;
+    }
+    .surfboards__container {
+    max-width: 100%;
+    margin: 0 auto;
+    }
+}
+
+.surfboards-title {
+    text-align: center;
+}
+
+.surfboards-shop {
+    max-width: 1388px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.surfboards-card {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-left: 65px;
+    margin-right: 131px;
+    .surfboards-card__description {
+    width: 185px;
+    position: absolute;
+    top: 260px;
+    left: 215px;
+    }
+    .surfboards-card__type {
+    color: #7a7a7a;
+    font-family: $font-family-1;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    }
+    .surfboards-card__name {
+    color: #333333;
+    font-family: $font-family-2;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.26px;
+    }
+    .surfboards-card__buy {
+    width: 50px;
+    margin: 0 auto;
+    }
+    .surfboards-card__price {
+    color: #ce60a8;
+    font-family: $font-family-1;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.1px;
+    text-align: center;
+    padding-top: 33px;
+    }
+}
+
+.subtitle {
+    @include subtitle(#000);
+}
+
+.link-center {
+    margin-top: 82px;
+}
+
+.button-buy {
+    color: #333333;
+    font-family: $font-family-3;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5.4px;
+}
+
+.surfboards__right-arrow {
+    position: relative;
+    bottom: 270px;
+    right: 0;
+}
+
+.surfboards__left-arrow {
+    position: relative;
+    bottom: 270px;
+    right: 0;
+}
+
+
+
+

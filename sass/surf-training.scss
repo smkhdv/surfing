@@ -1,0 +1,47 @@
+.surf-training {
+    margin-top: 173px;
+}
+
+.surf-training__container {
+    max-width: 1225px;
+    margin: 0 auto;
+    }
+    :after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+.surf-training__photo {
+    width: 58.4%;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+.surf-training__text {
+    width: 30%;
+    float: left;
+    margin: 0 71px;
+}
+.surf-training__description {
+    padding-top: 47px;
+}
+    
+.big-figure {
+    color: #f9f9f9;
+    font-family: "League Spartan";
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 13px;
+    position: relative;
+    top: 48px;
+    z-index: 2;
+}
+
+.read-more-link {
+    margin-top: 30px;
+}
+

@@ -1,0 +1,31 @@
+.quote {
+    margin-top: 191px;
+}
+
+.quote__container {
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.quote__text {
+    opacity: 0.9;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.26px; 
+    text-align: center;
+    padding: 0 30px;
+}
+
+.quote__author {
+    opacity: 0.9;
+    color: #333333;
+    font-family: "League Spartan";
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 5.4px; 
+    text-align: center; 
+    padding-top: 29px;
+}

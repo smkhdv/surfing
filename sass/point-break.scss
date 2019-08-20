@@ -1,0 +1,38 @@
+.point-break {
+    margin-top: 121px;
+    }
+    .point-break__container {
+        max-width: 1225px;
+        margin: 0 auto;
+    }
+    .point-break__photo {
+        position: relative;
+        float: left;
+    }
+    .point-break__img {
+        position: relative;
+        z-index: 2; 
+        margin-left: 217px;   
+    }
+    .point-break__text {
+        max-width: 336px;
+        float: left;
+        margin-left: 76px;
+    }
+    .point-break__description {
+        padding-top: 47px;
+    }
+
+.big-figure {
+    color: #f9f9f9;
+    font-family: "League Spartan";
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    position: relative;
+    top: 48px;
+    z-index: 2;
+}
+
+
+

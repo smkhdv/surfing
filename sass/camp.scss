@@ -1,0 +1,39 @@
+.camp {
+    margin-top: 148px;
+    a {
+    color: #5da8ef;
+    }
+    .camp__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
+    .camp__column-1 {
+    float: left;
+    position: relative;
+    z-index: 2;
+    }
+    .camp__column-2 {
+    float: left;
+    padding: 90px 44px;
+    }
+    .address {
+    opacity: 1;
+    color: #333333;
+    font-family: "Playfair Display";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.32px;
+    padding: 54px 48px;
+    position: relative;
+    z-index: 200;
+    }
+}
+
+.subtitle-gray {
+    @include subtitle (#0b0c11, .27);
+}
+
+.link-camp {
+    margin: 0;
+}

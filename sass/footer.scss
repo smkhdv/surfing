@@ -1,0 +1,43 @@
+.footer {
+    margin-top: 98px;
+}
+
+.footer__container {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-menu {
+    padding-top: 40px;
+    ul {
+    display: flex;
+    justify-content: center;
+    }
+    li {
+    display: inline-block;
+    padding-left: 40px;
+    }
+    li:first-child {
+    padding-left: 0;
+    }
+}
+
+.footer__social {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 97px;
+    li {
+    display: inline-block;
+    padding-left: 40px;
+    }
+    li:first-child {
+    padding-left: 0;
+    }
+}
