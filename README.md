@@ -1,1 +1,1 @@
-Adaptive + Responsive Landing Page: https://smkhdv.github.io/escape/
+Adaptive + Responsive Landing Page: https://mikhedov.github.io/escape/
