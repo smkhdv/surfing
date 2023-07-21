@@ -1,1 +1,1 @@
-Adaptive + Responsive Landing Page: https://smkhdv.github.io/surfing/
+Adaptive + Responsive Landing Page: https://smkhdv.github.io/escape/
