@@ -183,4 +183,6 @@
     .footer {
         margin: 0;
     }
+    .header__logo .footer__logo {
+	width: 16px;
 }
