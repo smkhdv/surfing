@@ -382,6 +382,8 @@ li {
 .footer__logo {
   position: relative;
   z-index: 2;
+  width: 16px;
+  margin: 0 auto;
 }
 
 .footer-menu {
